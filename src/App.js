@@ -60,7 +60,7 @@ setcity(value)
       <img src="./space.gif" width={"100%"} height={"100%"}/>
     <div class="main">
       <form onSubmit={handlesub}>
-      <input class="search"type='text'  onChange={handlechange} value={city}/>
+      <input class="search"type='text' placeholder='Enter City Name' onChange={handlechange} value={city}/>
  <img onClick={handlesub} src="./search.jpg" class="searchimg"/>
  </form>
  <div style={{textAlign:"center"}}>
