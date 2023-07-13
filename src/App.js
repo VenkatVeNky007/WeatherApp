@@ -57,14 +57,14 @@ setcity(value)
 
   return (
     <div class="body">
-      <img src="./space.gif" width={"100%"} height={"100%"}/>
+      <img src="https://venkatvenky007.github.io/WeatherApp/space.gif" width={"100%"} height={"100%"}/>
     <div class="main">
       <form onSubmit={handlesub}>
       <input class="search"type='text' placeholder='Enter City Name' onChange={handlechange} value={city}/>
- <img onClick={handlesub} src="./search.jpg" class="searchimg"/>
+ <img onClick={handlesub} src="https://venkatvenky007.github.io/WeatherApp/search.jpg" class="searchimg"/>
  </form>
  <div style={{textAlign:"center"}}>
- <img class="image"src="./imgw.png" />
+ <img class="image"src="https://venkatvenky007.github.io/WeatherApp/imgw.png" />
  <h1 class="cityname">{weather.name || "City name"}</h1>
   <span class="temp">{Math.round(weather.temp) || "00"}<sup>o</sup>c</span></div><br/>
 
